@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Andrea Satria Nagari</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav-sticky shadow-md fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gradient">Andrea S.N.</a>
+            <div class="flex items-center">
+                <div class="space-x-6">
+                    <a href="#about" class="text-lg hover:text-indigo-300 transition-colors" data-lang-key="nav_resume">Resume</a>
+                    <a href="#contact" class="text-lg hover:text-indigo-300 transition-colors" data-lang-key="nav_contact">Kontak</a>
+                </div>
+                <div class="ml-4 flex">
+                    <button id="lang-id" class="lang-btn active">ID</button>
+                    <button id="lang-en" class="lang-btn">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="section min-h-screen flex items-center">
+        <div class="container mx-auto px-6 text-center md:text-left">
+            <h1 class="heading-xl mb-6">
+                <span data-lang-key="hero_greeting">Hi There, I'm</span> <span class="text-gradient">Andrea S.N.</span>
+            </h1>
+            <p class="text-2xl md:text-3xl mb-8 text-gray-400 max-w-3xl mx-auto md:mx-0" data-lang-key="hero_tagline">
+                A Data Enthusiast passionate about turning data into insights and building intelligent solutions.
+            </p>
+            <div class="space-x-4">
+                <a href="#projects" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-indigo-500/50" data-lang-key="hero_btn_projects">
+                    View My Projects
+                </a>
+                <a href="#contact" class="border-2 border-indigo-400 hover:bg-indigo-400 hover:text-gray-900 text-indigo-300 font-semibold py-3 px-8 rounded-lg text-lg transition duration-300" data-lang-key="hero_btn_contact">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section section-alt">
+        <div class="container mx-auto px-6">
+            <h2 class="heading-lg" data-lang-key="about_title">About Me</h2>
+            <div class="grid md:grid-cols-12 gap-10 items-center">
+                <div class="md:col-span-4">
+                    <img src="https://placehold.co/400x400/161B22/A5B4FC?text=Andrea" alt="Andrea Satria Nagari" class="rounded-full shadow-2xl mx-auto border-4 border-gray-700">
+                </div>
+                <div class="md:col-span-8 text-lg space-y-5 text-gray-300">
+                    <p data-lang-key="about_p1">Saya seorang gamer dan penggemar data dengan minat mendalam pada data science dan machine learning. Keahlian saya terletak pada Python dan SQL, dan saya memiliki pemahaman yang kuat tentang analisis data eksploratif dan machine learning.</p>
+                    <p data-lang-key="about_p2">Saya terus-menerus menantang diri saya dengan mengikuti berbagai workshop dan bootcamp terkait data science untuk meningkatkan pengetahuan dan keterampilan saya. Saya sangat termotivasi, mampu bekerja secara mandiri maupun dalam tim, dan selalu bersemangat untuk mempelajari hal-hal baru.</p>
+                    <p data-lang-key="about_p3">Saya aktif mencari peluang sebagai data scientist atau machine learning engineer, tapi saya terbuka untuk mempertimbangkan peran apa pun yang dapat menggunakan keahlian saya.</p>
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold text-indigo-300 mb-4" data-lang-key="about_skills_title">Keahlian Utama:</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span>
+                            <span class="tag" data-lang-key="skill_eda">Exploratory Data Analysis</span><span class="tag" data-lang-key="skill_dl">Deep Learning</span>
+                            <span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Numpy</span>
+                            <span class="tag">Streamlit</span><span class="tag">Plotly</span><span class="tag">NLTK</span>
+                            <span class="tag">Tensorflow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container mx-auto px-6">
+            <h2 class="heading-lg" data-lang-key="experience_title">Work Experience</h2>
+            <div class="max-w-3xl mx-auto relative pl-8 py-4">
+                <div class="absolute left-0 top-0 bottom-0 w-1 bg-gray-700 rounded"></div>
+                
+                <div class="mb-12 card p-6 pl-10 relative">
+                    <div class="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-indigo-500 rounded-full border-4 border-gray-800 flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-indigo-300 mb-1" data-lang-key="exp1_title">Assistant Lecturer - Introductory Programming Course</h3>
+                    <p class="text-md text-gray-400 mb-2" data-lang-key="exp1_company">Universitas Tidar, Magelang, Indonesia</p>
+                    <p class="text-sm text-indigo-400 font-medium mb-3" data-lang-key="exp1_date">Agustus 2022 - Desember 2022</p>
+                    <p class="text-gray-300" data-lang-key="exp1_desc">
+                        Asisten dosen dalam mata kuliah dasar pemrograman untuk membantu proses belajar mengajar mahasiswa dengan dosen, membahas kurikulum dan materi, serta membantu proses penilaian tugas mahasiswa dengan dosen.
+                    </p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+        <div class="container mx-auto px-6">
+            <h2 class="heading-lg" data-lang-key="projects_title">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card-link card">
+                    <img src="https://placehold.co/600x400/161B22/A5B4FC?text=Loan+Predictor" alt="Loan Predictor Project" class="rounded-t-lg w-full h-52 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-indigo-300 mb-2" data-lang-key="project1_title">Loan Predictor</h3>
+                        <p class="text-xs text-gray-500 mb-3">Tech Stack: Pandas, Scikit-learn, Numpy, Streamlit</p>
+                        <p class="text-gray-400 text-sm mb-4" data-lang-key="project1_desc">
+                            Mengembangkan model machine learning untuk memprediksi hasil pembayaran pinjaman. Peningkatan kinerja model melalui rekayasa fitur dan hyperparameter tuning.
+                        </p>
+                        <span class="text-indigo-400 hover:text-indigo-200 text-sm font-semibold" data-lang-key="project_view_details">View Details &rarr;</span>
+                    </div>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card-link card">
+                    <img src="https://placehold.co/600x400/161B22/A5B4FC?text=Sales+Dashboard" alt="Sales KPI Dashboard Project" class="rounded-t-lg w-full h-52 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-indigo-300 mb-2" data-lang-key="project2_title">Sales KPI Dashboard</h3>
+                        <p class="text-xs text-gray-500 mb-3">Tech Stack: Pandas, Plotly, Streamlit</p>
+                        <p class="text-gray-400 text-sm mb-4" data-lang-key="project2_desc">
+                            Mengembangkan dan menerapkan aplikasi web interaktif untuk memvisualisasikan metrik kinerja penjualan utama. Memungkinkan pemantauan tren dan pengambilan keputusan berbasis data.
+                        </p>
+                        <span class="text-indigo-400 hover:text-indigo-200 text-sm font-semibold" data-lang-key="project_view_details">View Details &rarr;</span>
+                    </div>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card-link card">
+                    <img src="https://placehold.co/600x400/161B22/A5B4FC?text=Sentiment+Analysis" alt="Sentiment Analysis Dashboard Project" class="rounded-t-lg w-full h-52 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-indigo-300 mb-2" data-lang-key="project3_title">Sentiment Analysis Dashboard</h3>
+                        <p class="text-xs text-gray-500 mb-3">Tech Stack: Pandas, Streamlit, NLTK</p>
+                        <p class="text-gray-400 text-sm mb-4" data-lang-key="project3_desc">
+                            Mengembangkan aplikasi web analisis sentimen untuk menganalisis dan mengklasifikasikan teks pengguna. Menerapkan teknik NLP untuk visualisasi tren sentimen.
+                        </p>
+                        <span class="text-indigo-400 hover:text-indigo-200 text-sm font-semibold" data-lang-key="project_view_details">View Details &rarr;</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container mx-auto px-6">
+            <h2 class="heading-lg" data-lang-key="education_title">Education</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-indigo-300 mb-1" data-lang-key="edu1_degree">Bachelor of Electrical Engineering</h3>
+                    <p class="text-md text-gray-400 mb-2" data-lang-key="edu1_university">Universitas Tidar, Magelang, Indonesia</p>
+                    <p class="text-sm text-indigo-400 font-medium mb-3" data-lang-key="edu1_date">Agustus 2018 - Mei 2024 (GPA 3.04/4.00)</p>
+                    <p class="text-gray-300 text-sm" data-lang-key="edu1_thesis_label">
+                        Final Thesis: <span data-lang-key="edu1_thesis_value">Implementation of Machine Learning Forecasting the Maximum Useful Power of Hydropower Plant.</span>
+                    </p>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-indigo-300 mb-1" data-lang-key="edu2_program">Machine Learning Path</h3>
+                    <p class="text-md text-gray-400 mb-2" data-lang-key="edu2_institution">Bangkit Academy, Jakarta, Indonesia</p>
+                    <p class="text-sm text-indigo-400 font-medium mb-3" data-lang-key="edu2_date">Februari 2022 - Juni 2022</p>
+                    <p class="text-gray-300 text-sm" data-lang-key="edu2_desc">
+                        Program kesiapan karir intensif berfokus pada Machine Learning. Mendapat dasar kuat dalam data science, algoritma ML, deep learning, soft skills, dan Bahasa Inggris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section section-alt">
+        <div class="container mx-auto px-6">
+            <h2 class="heading-lg" data-lang-key="certifications_title">Certifications</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card p-5 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h4 class="font-semibold text-indigo-300 mb-1" data-lang-key="cert1_title">Tensorflow Developer Certificate</h4>
+                    <p class="text-xs text-gray-500" data-lang-key="cert1_issuer_date">Tensorflow | Issued July 2022</p>
+                </div>
+                <div class="card p-5 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h4 class="font-semibold text-indigo-300 mb-1" data-lang-key="cert2_title">DeepLearning.AI TensorFlow Developer</h4>
+                    <p class="text-xs text-gray-500" data-lang-key="cert2_issuer_date">Coursera | Issued April 2022</p>
+                </div>
+                <div class="card p-5 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h4 class="font-semibold text-indigo-300 mb-1" data-lang-key="cert3_title">TensorFlow: Data and Deployment</h4>
+                    <p class="text-xs text-gray-500" data-lang-key="cert3_issuer_date">Coursera | Issued April 2022</p>
+                </div>
+                <div class="card p-5 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h4 class="font-semibold text-indigo-300 mb-1" data-lang-key="cert4_title">Mathematics for Machine Learning</h4>
+                    <p class="text-xs text-gray-500" data-lang-key="cert4_issuer_date">Coursera | Issued March 2022</p>
+                </div>
+                <div class="card p-5 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <h4 class="font-semibold text-indigo-300 mb-1" data-lang-key="cert5_title">Google IT Automation With Python</h4>
+                    <p class="text-xs text-gray-500" data-lang-key="cert5_issuer_date">Coursera | Issued March 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="heading-lg" data-lang-key="contact_title">Let's Connect</h2>
+            <p class="text-xl text-gray-400 mb-10 max-w-xl mx-auto" data-lang-key="contact_subtitle">
+                Saya tertarik dengan peluang baru dan kolaborasi. Jangan ragu untuk menghubungi saya!
+            </p>
+            <div class="flex justify-center space-x-8 mb-12">
+                <a href="mailto:andreanagari36@gmail.com" class="icon-link" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="Github">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                </a>
+            </div>
+            <p class="text-gray-500" data-lang-key="contact_email_label">Email: <a href="mailto:andreanagari36@gmail.com" class="hover:text-indigo-300">andreanagari36@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center border-t border-gray-700">
+        <p class="text-gray-500 text-sm" data-lang-key="footer_text">
+            Made with <span class="text-red-500">&hearts;</span> by Andrea Satria Nagari.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
